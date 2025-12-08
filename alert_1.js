@@ -9,8 +9,9 @@ text1='Нужно найти длину отрезка на координатн
 text2='Исходные координаты на плоскости заданы (3,2) и (15,8).';
 console.log(text1);
 console.log(text2);
-S= Math.sqrt((Math.abs(addressLat)-Math.abs(positionLat))**2+(Math.abs(addressLong)-Math.abs(positionLat))**2);
+S= Math.sqrt((Math.abs(addressLat)-Math.abs(positionLat))**2+(Math.abs(addressLong)-Math.abs(positionLong))**2);
 console.log('Расстояние между этими точками  равно: '+parseFloat(S.toFixed(2)));
 text3='Применен модуль, потому что координаты могут быть и отрицательными, про это ничего не сказано в условии.'+'\n'+
 'Применено округление до двух знаков и перевод обратно в число.';
+
 console.log(text3);
