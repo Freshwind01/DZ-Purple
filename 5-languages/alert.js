@@ -5,8 +5,8 @@ let UserLang=prompt('Укажите желаемый язык (2 буквы):','
 if (UserLang) {
 UserLang=UserLang.toLowerCase();
 
-let language = ['cn','ru','fr','ge','sa'];
-let greetings =['Nihao!','Здравствуйте!','Bonjour!','გამარჯობა!','Namaste!']
+let language = ['en','ru','fr','de','sa'];
+let greetings =['Hi!','Здравствуйте!','Bonjour!','Gutten tag!','Namaste!']
 
 if (typeof UserLang==='string')
 {
@@ -30,4 +30,5 @@ switch (UserLang) {
 }
 }
 else 
+
         console.log('Пользователь ввел нулевое значение или отказался от ввода.');        
