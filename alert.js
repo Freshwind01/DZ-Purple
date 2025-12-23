@@ -3,6 +3,6 @@
 //hasLicence - имеет права
 //age - возраст
 //isDrunk - пьян
-const hasLicence=true, age=18,isDrunk=false;
+const hasLicence=true, age=18,isDrunk=false, result=((age>18)&&hasLicence&&(!isDrunk))?console.log('Может'):console.log('Не может');
 
-const result=((age>=18)&&hasLicence&&(!isDrunk))?console.log('Может'):console.log('Не может');
+
